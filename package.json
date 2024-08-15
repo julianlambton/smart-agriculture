@@ -1,0 +1,25 @@
+{
+  "name": "@julianlambton/smart-agriculture",
+  "version": "1.0.1",
+  "description": "A TypeScript project for smart agriculture and precision farming.",
+  "main": "dist/smartAgriculture.js",
+  "types": "dist/smartAgriculture.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/smartAgriculture.js"
+  },
+  "keywords": [
+    "agriculture",
+    "smart",
+    "precision",
+    "farming"
+  ],
+  "author": "Julian Casilimas and Sahar Chain",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}
